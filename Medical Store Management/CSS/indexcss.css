@@ -1,0 +1,48 @@
+#header img {
+  float: left;
+  width: 80px;
+  height: 60px;
+
+}
+#header h10 {
+  position: relative;
+  top: 2px;
+  center: 10px;
+  padding-left:400px;
+}
+
+#header
+{
+	height:10%;
+	width:100%;
+	text-align:left;
+	font-size:40px;
+	border:double;
+	color:#F0E68C;
+	border-color:#000;
+	position:relative;
+	
+}
+
+#right
+{
+	height:83%;
+	width:100%;
+	float:right;
+	border:double;
+	position:relative;
+}
+
+
+#footer
+{
+	height:7%;
+	width:100%;
+	border:double;
+	margin-top:115px;
+	position:relative;
+
+}
+#header a
+{
+	float:right}

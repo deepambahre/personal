@@ -1,0 +1,133 @@
+#header img {
+  float: left;
+  width: 80px;
+  height: 60px;
+
+}
+#header h10 {
+  position: relative;
+  top: 2px;
+  center: 10px;
+  padding-left:400px;
+}
+
+#header
+{
+	height:10%;
+	width:100%;
+	text-align:left;
+	font-size:40px;
+	border:double;
+	color:#F0E68C;
+	border-color:#000;
+	position:relative;
+	
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	float:right;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 860px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/*2nd */
+.dropbtn1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	float:right;
+	margin-left:1095px;
+	margin-top:-72px;
+}
+
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 860px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content1 a:hover {background-color: #f1f1f1}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+.dropdown1:hover .dropbtn1 {
+    background-color: #3e8e41;
+}
+
+
+#right
+{
+	height:83%;
+	width:100%;
+	float:right;
+	border:double;
+	position:relative;
+}
+
+
+#footer
+{
+	height:7%;
+	width:100%;
+	border:double;
+	margin-top:585px;
+	position:relative;
+
+}
+
+#header a
+{
+	float:right}

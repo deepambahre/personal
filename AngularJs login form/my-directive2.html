@@ -1,0 +1,84 @@
+
+                <form id="register-form" name="rgForm" novalidate ng-submit="rgForm.$valid &&sendForm()" action="" method="post" role="form" style="display: none;">
+                  <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                    <input type="text" id="username" tabindex="1" ng-class="{'has-error': rgForm.username.$touched && rgForm.username.$error.required , 'has-success': rgForm.username.$valid }" name="username" ng-model="form.data.username" class="form-control" placeholder="Username" ng-pattern="/^[A-Za-z0-9]{6,}$/" required /><span class="my-err" ng-show="rgForm.username.$error.pattern">Please Enter Valid Username</span><br>
+                    </div>
+                    <div class="col-md-12 col-sm-12">
+                    <span class="my-err" ng-show="rgForm.username.$touched && rgForm.username.$error.required">Please Enter Valid Username</span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                    <input type="email" name="email" ng-class="{'has-error': rgForm.email.$touched && rgForm.email.$error.required , 'has-success': rgForm.email.$valid }" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="" ng-model="form.data.email" ng-pattern="/^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i" required>
+                    <span class="my-err" ng-show="rgForm.email.$error.pattern">Please Enter Valid Email</span>
+                    </div>
+                    <div class="col-md-12 col-sm-12">
+                    <span class="my-err" ng-show="rgForm.email.$touched && rgForm.email.$error.required">Please Enter Valid Username</span>
+                  </div>
+                  </div> 
+                    <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                    <input type="password" id="password" tabindex="1" ng-class="{'has-error': rgForm.password.$touched && rgForm.password.$error.required , 'has-success': rgForm.password.$valid }" name="password" ng-model="user.password" class="form-control" placeholder="Password" ng-pattern="/(?=^.{6}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$/" required />
+                    <span class="my-err" ng-show="rgForm.password.$error.pattern">Please Enter Valid Password</span>
+                   </div>
+                   <div class="col-md-12 col-sm-12">
+                    <span class="help-block top-lab my-err" ng-show="rgForm.password.$touched && rgForm.password.$error.required">Please Enter Valid Password</span>
+                  </div>
+                  </div>
+
+
+        <div class="row">
+                    <div class="col-md-12 col-sm-12">
+          <input type="password" id="password" tabindex="1" name="confirm_password" ng-model="user.passwordVerify" class="form-control" placeholder="Confirm Password" data-password-verify="user.password" required/>               
+            <div class="my-err" ng-show="rgForm.confirm_password.$touched && rgForm.confirm_password.$error.required">Confirm Password required!</div>
+            <div class="my-err" ng-show="rgForm.confirm_password.$error.passwordVerify">Confirm Password not equal!</div>
+                        </div>
+                </div>
+                  <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                    <input type="text" name="phone" id="phone" tabindex="2" ng-class="{'has-error': rgForm.phone.$touched && rgForm.phone.$error.required , 'has-success': rgForm.phone.$valid }" class="form-control" placeholder="phone" ng-model="form.data.phone" ng-pattern="/^\+?91[7-9][0-9]{9}$/" required>
+                    <span class="my-err" ng-show="rgForm.phone.$error.pattern">Please Enter Valid Phone No.</span>
+                   </div>
+                   <div class="col-md-12 col-sm-12">
+                    <span class="help-block top-lab my-err" ng-show="rgForm.phone.$touched && rgForm.phone.$error.required">Phone No. is Required</span>
+                  </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                    <textarea name="address" id="address" tabindex="2" rows="4" ng-class="{'has-error': rgForm.address.$touched && rgForm.address.$error.required , 'has-success': rgForm.address.$valid }" class="form-control" placeholder="Address" ng-model="form.data.address" ng-pattern="/^[A-Za-z0-100]{25,100}$/"></textarea>
+                  <span class="my-err" ng-show="rgForm.address.$error.pattern">Please Enter characters between 25-100 & spacial character not allowed</span>
+                   </div>
+                   <div class="col-md-12 col-sm-12">
+                    <span class="help-block top-lab my-err" ng-show="rgForm.address.$touched && rgForm.address.$error.required"> Required!</span>
+                  </div>
+                  </div>
+
+
+                  <div class="form-group">
+                    <div class="row">
+                      <div class="col-sm-6 col-sm-offset-3">
+                        <input type="submit" ng-disabled="rgForm.$invalid" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Register Now">
+                      </div>
+                    </div>
+                  </div>
+                </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+

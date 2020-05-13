@@ -1,0 +1,56 @@
+body {
+    background-color:#c5dff8;
+ }
+#thumb_container {
+    position:relative;
+    width:180px;               /*this value is the same as the #thumb value */ 
+    height:250px;              /*this value is the same as the #thumb value */ 
+    border:3px double #000;    /*this value is editable */
+    margin:20px;
+    cursor:pointer;
+	float:left;
+	margin-top:-450px;
+ }
+
+#thumb {
+	margin-top:30px;
+    width:110px;               /*this value is the thumbnail width  */
+    height:177px;              /*this value is the thumbnail height */
+    background-image:url(images/baby/thumb/4small.png);
+	margin-left:20px;
+   
+ }
+
+
+#screen {
+    position:absolute;
+    z-index:1;
+    top:0;
+    left:0;
+    width:200px;               /*this value is the same as the #thumb value */ 
+    height:125px;              /*this value is the same as the #thumb value */ 
+    background-color:#fff;
+    filter:alpha(opacity=0.1);
+    opacity:0.01;
+ }
+#lens {
+    position:absolute;
+    width:120px;              /*this value is editable */
+    height:235px;              /*this value is editable */
+    display:none;
+    overflow:hidden;
+ }
+#image_container {
+    width:280px;             /*this value is equal to #lens value x  (image width/thumbnail width)   */ 
+    height:263px;            /*this value is equal to #lens value x  (image height/thumbnail height) */ 
+    border:3px double #000;  /*this value is editable */
+    margin:20px;             /*this value is editable */
+    display:none;
+    overflow:hidden;
+	padding-left:50px;
+	float:right;
+	margin-top:-250px;
+	margin-left:250px;
+
+
+ }

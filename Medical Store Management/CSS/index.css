@@ -1,0 +1,202 @@
+
+#header img {
+  float: left;
+  width: 80px;
+  height: 60px;
+
+}
+#header h10 {
+  position: relative;
+top: 2px;
+width: 100%;
+float: left;
+text-align: center;
+}
+.my-nav-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#header
+{
+	height:10%;
+	width:100%;
+	font-size:40px;
+	border:double;
+	color:#F0E68C;
+	border-color:#000;
+	position:relative;
+		
+}
+
+#left
+{
+	height:83%;
+	width:20.9%;
+	float:left;
+	border:double;
+	position:relative;
+	min-height:498px;
+}
+
+#right
+{
+	height:83%;
+	width:79.10%;
+	float:right;
+	border:double;
+	position:relative;
+	min-height:498px;
+}
+.brand-heading a, brand-heading a:hover
+{
+ color:#fff;
+ text-decoration:none;
+}
+
+#footer
+{
+	height:7%;
+	width:100%;
+   position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+ background:#000;
+
+}
+#footer p
+{
+	font-size:20px;
+	color: #fff;
+}
+#header a
+ {  
+    font-size: 30px;
+    color: #fff;
+ }
+
+#rightagain
+{
+	height:63%;
+	width:100%;
+	border:double;
+	position:relative;
+	margin-bottom:-550px;
+	padding-bottom:130px;
+	margin-top:-25px;
+
+}
+.brand-logo li
+{
+	list-style-type:none;
+	display: ruby-base-container;
+}
+ul
+{
+    width: auto !important;
+    background-color: transparent !important;
+}
+li a {
+    /* display: inline !important; */
+    color: #fff !important;
+}
+
+/*-------------Product------------*/
+
+.product-part
+{
+	width:100%;
+	float:left;
+}
+.product-sidebar
+{
+	width:100%;
+	float:left;
+}
+.product-middlebar
+{
+	width:100%;
+	float:left;
+}
+.product-nav
+{
+	width:100%;
+	float:left;
+	text-align: center;
+    margin: 20px 0px;
+}
+.product-middle
+{
+	width:100%;
+	float:left;
+	min-height: 475px;
+}
+.product-image
+{
+	width:100%;
+	float:left;
+	margin-top: 180px;
+}
+.main-middlebar
+{
+	width:100%;
+	float:left;
+}
+.main-middlebar img
+{
+	width:400px;
+	height:200px;
+	margin-bottom:20px;
+}
+.main-sidebar
+{
+	width:100%;
+	float:left;
+	max-height: 475px;
+	margin-top:20px;
+}
+.main-part
+{
+	width:100%;
+	float:left;
+	margin-top:-20px;
+}
+.remove-top-sp
+{
+	margin-top:-20px;
+}
+.my-sidebtn
+{
+	text-decoration:none;
+	width: 180px;
+margin-left: 10px;
+margin-bottom: 0px;
+margin-top: 10px;
+background: #000;
+padding: 10px 0px;
+}
+.b-cat
+{
+	margin-left: 60px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
